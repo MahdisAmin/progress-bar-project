@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Order Status</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="progress-container">
+            <div class=" progress-bar">
+                <img src="./img/preorder.png" alt="">
+                <div class="rotation-div"></div>
+            </div>
+            <div class="progress-line"></div>
+            <div class="progress-bar">
+                <img src="./img/package.png" alt="">
+                <div class="rotation-div"></div>
+            </div>
+            <div class="progress-line"></div>
+            <div class="progress-bar">
+                <img src="./img/free-delivery.png" alt="">
+                <div class="rotation-div"></div>
+            </div>
+            <div class="progress-line"></div>
+            <div class="progress-bar">
+                <img src="./img/delivered.png" alt="">
+                <div class="rotation-div"></div>
+            </div>
+        </div>
+        <div class="notes">
+            <p>Pending</p>
+            <p>Processing</p>
+            <p>Shipped</p>
+            <p>Delivered</p>
+        </div>
+        <div class="prcessing-notes">
+            <p></p>
+        </div>
+        <div class="">
+            <button class="progress-btn previous">Previous</button>
+            <button class="progress-btn next">Next</button>
+            
+            <select id="language">
+                <option disabled>Select a langage</option>
+                <option value="en">English</option>
+                <option value="fa">فارسی</option>
+            </select>
+        </div>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
